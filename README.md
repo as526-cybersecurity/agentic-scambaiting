@@ -1,19 +1,23 @@
 # Agentic-Scambaiting
-This repository presents my graduate thesis research on the strategic
-interaction between autonomous scammers and defensive scambaiting agents.
+This repository presents my graduate thesis research on the strategic interaction between autonomous scammers and defensive scambaiting agents.
 
-## About the Research
+## Introduction
 
-The thesis develops a formal framework for modeling adversarial scammer and
-scambaiter engagement across a staged scam kill chain. The framework captures
-belief-driven screening and detection dynamics and uses equilibrium computation
-and large-scale simulation to identify deployment conditions for scaling
-defensive fraud-disruption agents.
+Scambaiting traditionally involves a defender posing as a potential victim to keep scammers engaged and obtain operational details such as mule-account information. As both scammers and defenders adopt autonomous conversational agents, this interaction becomes more than a one-sided automation problem. Scammers can screen contacts for signs of deception, while scambaiting agents must remain credible long enough for actionable intelligence to emerge.
 
-The research examines an environment in which scammers must determine whether
-they are interacting with genuine victims or defensive agents, while
-scambaiting agents must sustain engagement long enough to collect actionable
-fraud intelligence.
+This research examines whether agentic scambaiting can remain effective against adaptive scammers. It treats scam engagements as staged strategic interactions in which scammers continuously assess whether they are communicating with a genuine victim or a defensive agent, and studies how this process affects intelligence disclosure, operational resources, and the longer-term effectiveness of scambaiting systems.
+
+## Research Framework
+
+The study models each scam engagement as a staged interaction in which the scammer does not know whether the counterparty is a genuine victim or a defensive scambaiting agent. As the conversation progresses, the scammer updates its assessment using conversational signals and decides whether to continue, probe, advance the scam, or disengage.
+
+The framework connects these individual engagements to campaign-level outcomes by accounting for the operational resources used by both sides across repeated interactions. Strategies are computed and evaluated through simulation to examine how screening, adaptation, deployment scale, and resource attrition shape intelligence collection and scammer incentives.
+
+## Findings
+
+Selected findings and supporting figures from the study are documented in the [findings](findings/) directory.
+
+The results should be interpreted within the assumptions and parameterization of the modeled environment.
 
 ## Publication
 
